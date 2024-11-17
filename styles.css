@@ -1,0 +1,57 @@
+/* Post Card Styles */
+
+/* Styling for each post card */
+.post-card {
+  background-color: #ebedef;
+  border: 1px solid #a5b4b9;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.post-card img {
+  max-width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ccc;
+}
+
+.post-card h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+  color: #333;
+}
+
+.post-card p {
+  font-style: italic;
+  color: #666;
+  padding: 0 0 10px 10px;
+  text-align: left;
+}
+
+.read-button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  border: 2px solid #3f4b6e;
+  border-radius: 5px;
+  width: 200px;
+  height: 2em;
+  background-color: white;
+  color: #3f4b6e;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-top: 10px;
+}
+
+.read-button:hover {
+  background-color: #3f4b6e;
+  color: #ebedef;
+  font-weight: 700;
+}
